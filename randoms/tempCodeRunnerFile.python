@@ -1,0 +1,19 @@
+cases=int(input())
+for i in range(cases):
+    s=input()
+    if len(s)==1:
+        print(1)
+    elif s[-1]=='1' or s[0]==0:
+        print(1)
+    else:
+        ind1=0
+        ind0=len(s)-1
+        stopflag=False
+        for j in range(len(s)):
+            if s[j]=='1':
+                ind1=j
+            if s[j]=='0' and not stopflag:
+                ind0=j
+                stopflag=True
+                break
+        print(ind0-ind1+1)

@@ -1,0 +1,1 @@
+     // if(stoi(ctc) >= 3 && stoi(ctc) <= 6)

@@ -1,0 +1,1 @@
+{"name":"Local: basic","url":"c:\\Users\\mdkai\\OneDrive\\Desktop\\c c++\\dsa\\graph\\basic.cpp","tests":[{"id":1662493815433,"input":"8 6\n1 2\n2 3\n2 4\n3 5\n6 7\n3 1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\mdkai\\OneDrive\\Desktop\\c c++\\dsa\\graph\\basic.cpp","group":"local","local":true}
